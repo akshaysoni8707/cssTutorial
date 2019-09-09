@@ -52,3 +52,15 @@ Learn all CSS styling by taking this tutorial.
 5. weight
 6. variant
 
+> **Links**
+
+1. pseudoClasses
+2. color
+3. text-decoration
+4. background-color
+
+> **Lists**
+
+1. list-style-type
+2. list-style-image
+3. list-style-position
