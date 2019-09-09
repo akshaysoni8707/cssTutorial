@@ -19,7 +19,7 @@ Learn all CSS styling by taking this tutorial.
 > **Color**  
 
 1. Name
-2. HSl / HSLA
+2. HSL / HSLA
 3. RGB / RGBA
 4. HEX
 
