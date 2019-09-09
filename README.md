@@ -14,7 +14,7 @@ Learn all CSS styling by taking this tutorial.
 2. id
 3. class
 4. universal
-5. class
+5. group
 
 > **Color**  
 
