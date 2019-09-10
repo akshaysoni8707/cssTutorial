@@ -64,3 +64,26 @@ Learn all CSS styling by taking this tutorial.
 1. list-style-type
 2. list-style-image
 3. list-style-position
+
+> **Div**
+
+1. block/inline-block
+2. height
+3. width
+4. border
+5. overflow
+
+
+> **Tables**
+
+1. width/height
+2. border
+3. border-collapse
+4. padding
+5. text-align
+6. vertical-align
+6. border-spacing
+7. horizontal-divider
+8. hoverable table
+9. nth-child
+10. overflow-x
