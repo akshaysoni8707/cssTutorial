@@ -65,6 +65,21 @@ Learn all CSS styling by taking this tutorial.
 2. list-style-image
 3. list-style-position
 
+> **Border**
+
+1. border-style
+2. border-width
+3. border-color
+4. sides
+5. border-radius
+
+> **Box Model**
+
+1. content
+2. padding
+3. border
+4. margin
+
 > **Div**
 
 1. block/inline-block
@@ -73,6 +88,7 @@ Learn all CSS styling by taking this tutorial.
 4. border
 5. overflow
 
+> **Padding / Margin**
 
 > **Tables**
 
