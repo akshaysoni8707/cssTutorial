@@ -80,6 +80,12 @@ Learn all CSS styling by taking this tutorial.
 3. border
 4. margin
 
+> **Padding / Margin**
+1. margin sides
+2. margin shorthand
+1. padding sides
+2. padding shorthand
+
 > **Div**
 
 1. block/inline-block
@@ -87,8 +93,6 @@ Learn all CSS styling by taking this tutorial.
 3. width
 4. border
 5. overflow
-
-> **Padding / Margin**
 
 > **Tables**
 

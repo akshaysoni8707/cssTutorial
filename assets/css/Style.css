@@ -30,3 +30,15 @@
     border-right: 2px dotted blue;
     border-left: hidden;
 }
+
+.width-demo {
+    max-width: 700px;
+    min-width: 500px;
+}
+
+.margin {
+    margin: 10px 10px 20px 20px;
+    /* margin: 10px 20px 10px; */
+    /* margin: 10px 20px; */
+    /* margin: 20px; */
+}
