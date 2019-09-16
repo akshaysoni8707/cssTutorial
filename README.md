@@ -81,6 +81,7 @@ Learn all CSS styling by taking this tutorial.
 4. margin
 
 > **Padding / Margin**
+
 1. margin sides
 2. margin shorthand
 1. padding sides
