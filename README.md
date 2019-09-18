@@ -108,3 +108,20 @@ Learn all CSS styling by taking this tutorial.
 8. hoverable table
 9. nth-child
 10. overflow-x
+
+> **Outline**
+
+1. outline-style 
+2. outline-width
+3. outline-color
+4. shorthand
+5. outline-offset
+
+> **Display / Visibility**
+
+1. block
+2. inline
+3. inline-block
+4. none
+5. Visibiliy : visible
+6. Visibiliy : hidden 
