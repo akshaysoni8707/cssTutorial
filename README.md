@@ -134,3 +134,11 @@ Learn all CSS styling by taking this tutorial.
 4. fixed
 5. sticky
 6. z-index 
+
+> **Float**
+
+1. left
+2. right
+3. none
+4. clear : left , right or both
+5. clearfix
