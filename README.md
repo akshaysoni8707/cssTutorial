@@ -142,3 +142,13 @@ Learn all CSS styling by taking this tutorial.
 3. none
 4. clear : left , right or both
 5. clearfix
+
+> **Align**
+
+1. center align div using margin
+2. center align text using text-align
+3. center align image using margin
+4. left , right align using position
+5. left , right align using float
+6. center vertical using padding
+7. align using line-height
