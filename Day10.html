@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+         ::selection {
+            background-color: orange;
+            color: blueviolet;
+        }
+        
+        section#id1 div p {
+            background-color: aqua
+        }
+        
+        section#id2 div>p {
+            background-color: tomato
+        }
+        /* section#id3 div+p {
+            background-color: tomato
+        } */
+        
+        section#id3 div~p {
+            background-color: tomato
+        }
+        
+        section#id4 p:first-child {
+            color: red;
+        }
+        
+        section#id4 p:last-child {
+            color: blue;
+        }
+        
+        section#id2:hover {
+            background-color: aqua;
+        }
+        
+        section#id5 p:first-child::first-line {
+            color: blue;
+        }
+        
+        section#id5 p:first-child:first-letter {
+            color: red;
+        }
+    </style>
+
+</head>
+
+
+<body>
+    <section id="id1">
+        <h3>Descendant</h3>
+        <div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod, corporis dicta harum a dolore inventore velit dolorem porro exercitationem sit minus distinctio atque blanditiis ratione maiores eveniet omnis vel?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod, corporis dicta harum a dolore inventore velit dolorem porro exercitationem sit minus distinctio atque blanditiis ratione maiores eveniet omnis vel?
+            </p>
+            <section>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod, corporis dicta harum a dolore inventore velit dolorem porro exercitationem sit minus distinctio atque blanditiis ratione maiores eveniet omnis vel?
+                </p>
+            </section>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod, corporis dicta harum a dolore inventore velit dolorem porro exercitationem sit minus distinctio atque blanditiis ratione maiores eveniet omnis vel?
+            </p>
+        </div>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque cum debitis tenetur sint dolor consequuntur necessitatibus asperiores temporibus? At eaque accusantium repudiandae molestias asperiores vel incidunt iusto voluptates quis suscipit!
+        </p>
+        <hr>
+    </section>
+
+    <section id="id2">
+        <h3>child</h3>
+        <div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod, corporis dicta harum a dolore inventore velit dolorem porro exercitationem sit minus distinctio atque blanditiis ratione maiores eveniet omnis vel?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod, corporis dicta harum a dolore inventore velit dolorem porro exercitationem sit minus distinctio atque blanditiis ratione maiores eveniet omnis vel?
+            </p>
+            <section>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod, corporis dicta harum a dolore inventore velit dolorem porro exercitationem sit minus distinctio atque blanditiis ratione maiores eveniet omnis vel?
+                </p>
+            </section>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod, corporis dicta harum a dolore inventore velit dolorem porro exercitationem sit minus distinctio atque blanditiis ratione maiores eveniet omnis vel?
+            </p>
+        </div>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque cum debitis tenetur sint dolor consequuntur necessitatibus asperiores temporibus? At eaque accusantium repudiandae molestias asperiores vel incidunt iusto voluptates quis suscipit!
+        </p>
+    </section>
+    <section id="id3">
+        <h3>Sibling</h3>
+        <div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod, corporis dicta harum a dolore inventore velit dolorem porro exercitationem sit minus distinctio atque blanditiis ratione maiores eveniet omnis vel?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod, corporis dicta harum a dolore inventore velit dolorem porro exercitationem sit minus distinctio atque blanditiis ratione maiores eveniet omnis vel?
+            </p>
+            <section>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod, corporis dicta harum a dolore inventore velit dolorem porro exercitationem sit minus distinctio atque blanditiis ratione maiores eveniet omnis vel?
+                </p>
+            </section>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod, corporis dicta harum a dolore inventore velit dolorem porro exercitationem sit minus distinctio atque blanditiis ratione maiores eveniet omnis vel?
+            </p>
+        </div>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque cum debitis tenetur sint dolor consequuntur necessitatibus asperiores temporibus? At eaque accusantium repudiandae molestias asperiores vel incidunt iusto voluptates quis suscipit!
+        </p>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque cum debitis tenetur sint dolor consequuntur necessitatibus asperiores temporibus? At eaque accusantium repudiandae molestias asperiores vel incidunt iusto voluptates quis suscipit!
+        </p>
+        <hr>
+    </section>
+    <hr>
+    <br>
+    <section id="id4">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod, corporis dicta harum a dolore inventore velit dolorem porro exercitationem sit minus distinctio atque blanditiis ratione maiores eveniet omnis vel?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod, corporis dicta harum a dolore inventore velit dolorem porro exercitationem sit minus distinctio atque blanditiis ratione maiores eveniet omnis vel?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod, corporis dicta harum a dolore inventore velit dolorem porro exercitationem sit minus distinctio atque blanditiis ratione maiores eveniet omnis vel?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod, corporis dicta harum a dolore inventore velit dolorem porro exercitationem sit minus distinctio atque blanditiis ratione maiores eveniet omnis vel?
+        </p>
+    </section>
+    <section id="id5">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod, corporis dicta harum a dolore inventore velit dolorem porro exercitationem sit minus distinctio atque blanditiis ratione maiores eveniet omnis vel?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod, corporis dicta harum a dolore inventore velit dolorem porro exercitationem sit minus distinctio atque blanditiis ratione maiores eveniet omnis vel?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod, corporis dicta harum a dolore inventore velit dolorem porro exercitationem sit minus distinctio atque blanditiis ratione maiores eveniet omnis vel?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod, corporis dicta harum a dolore inventore velit dolorem porro exercitationem sit minus distinctio atque blanditiis ratione maiores eveniet omnis vel?
+        </p>
+    </section>
+</body>
+
+</html>

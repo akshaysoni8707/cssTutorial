@@ -152,3 +152,27 @@ Learn all CSS styling by taking this tutorial.
 5. left , right align using float
 6. center vertical using padding
 7. align using line-height
+
+> **Combinators**
+
+1. descendants
+2. child
+3. adjacent sibling 
+4. general sibling
+
+> **Pseudo Class**
+1. link
+2. visited
+3. hover
+4. active
+5. first-child
+6. last-child
+7. nth-child(odd) , nth-child(even)
+8. lang
+
+> **Pseudo Elements**
+1. first-line
+2. first-letter
+3. before
+4. after
+5. selection
