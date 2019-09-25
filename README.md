@@ -176,3 +176,13 @@ Learn all CSS styling by taking this tutorial.
 3. before
 4. after
 5. selection
+
+> **IMG/OPACITY**
+
+1. img opacity
+2. div opacity
+
+> **Navbar**
+
+1. Horizontal Navbar
+2. Vertical Navbar
