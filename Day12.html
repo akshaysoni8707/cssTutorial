@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .dropdown {
+            width: 200px;
+            position: relative;
+            text-align: center;
+        }
+        
+        .header {
+            cursor: pointer;
+        }
+        
+        .header h2 {
+            margin-bottom: 0px;
+        }
+        
+        .dropdown:hover .drop-content {
+            box-shadow: 1px 8px 10px grey;
+            display: block;
+        }
+        
+        .drop-content {
+            display: none;
+            position: absolute;
+            padding: 2px 10px;
+            left: 50px;
+        }
+        
+        .box-shadow {
+            width: 500px;
+            border: 2px solid green;
+            box-shadow: 15px 15px 10px grey;
+        }
+        
+        .drop-content a {
+            text-decoration: none;
+            display: block;
+            padding: 2px 10px;
+        }
+        
+        .drop-content a:hover {
+            background-color: rgb(172, 171, 171);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box-shadow">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident reprehenderit ab voluptatum. Suscipit vero recusandae est veritatis veniam eligendi ad ea libero distinctio officia quasi mollitia, illo reprehenderit praesentium maiores!
+        </p>
+    </div>
+    <div class="dropdown">
+        <div class="header">
+            <h2>hover me</h2>
+        </div>
+        <div class="drop-content">
+            <a href="">list 1</a>
+            <a href="">list 2</a>
+            <a href="">list 3</a>
+        </div>
+    </div>
+</body>
+
+</html>

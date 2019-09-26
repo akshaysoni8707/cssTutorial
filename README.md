@@ -186,3 +186,16 @@ Learn all CSS styling by taking this tutorial.
 
 1. Horizontal Navbar
 2. Vertical Navbar
+
+> **Box-Shadow**
+
+1. horizontal
+2. vertical
+3. blur
+4. color
+
+> **Dropdown**
+
+1. content
+2. links
+3. image
