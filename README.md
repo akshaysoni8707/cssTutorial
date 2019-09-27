@@ -199,3 +199,13 @@ Learn all CSS styling by taking this tutorial.
 1. content
 2. links
 3. image
+
+> **Attribute Selector**
+
+1. Attribute
+2. Attribute and Value
+3. ~ selector
+4. | selector
+5. ^ selector
+6. $ selector
+7. * selector
